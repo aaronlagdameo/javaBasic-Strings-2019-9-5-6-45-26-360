@@ -19,7 +19,8 @@ StringTest
     Q1: What is the knowledge point of the test? Where is the official document to the knowledge point?
     
     A1: To know more about string equalities and to learn more about and the usage of common string functions.
-
+    http://www.java2s.com/Tutorials/Java/Data_Type_How_to/String/index.htm
+    
     Q2: Why the test failed at first?
     
     A2: Because the expected values are not set.
