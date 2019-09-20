@@ -1,27 +1,43 @@
 Summary
-- StringTest
-
-    1. should_be_immutable
-    2. all_modification_method_will_create_new_string
-    3. will_create_new_string_when_concat
-    4. should_taken_string_apart
-    5. should_taken_string_apart_continued
-    6. should_break_string_into_words
-    7. should_break_string_into_words_customized
-    8. should_create_ascii_art
-    9. should_calculate_checksum_of_a_string
-    10. should_convert_unicode_escape
-    11. should_reverse_a_string
-    12. should_compare_string_with_different_cases
-    13. should_format_string
+-
+StringTest
+-
+    [1] should_be_immutable
+    
+    [2] all_modification_method_will_create_new_string
+    
+    [3] will_create_new_string_when_concat
+    
+    [4] should_taken_string_apart
+    
+    [5] should_taken_string_apart_continued
+    
+    [6] should_break_string_into_words
+    
+    [7] should_break_string_into_words_customized
+    
+    [8] should_create_ascii_art
+    
+    [9] should_calculate_checksum_of_a_string
+    
+    [10] should_convert_unicode_escape
+    
+    [11] should_reverse_a_string
+    
+    [12] should_compare_string_with_different_cases
+    
+    [13] should_format_string
 
     Q1: What is the knowledge point of the test? Where is the official document to the knowledge point?
+    
     A1: To know more about string equalities and to learn more about and the usage of common string functions.
 
     Q2: Why the test failed at first?
+    
     A2: Because the expected values are not set.
 
     Q3: Why you corrected the test that way?
+    
     A3: Test [1-3] Added false results as they all are not equal strings due to the other one being modified.
     Test [4-5] Used substring to get part of the string, passed the starting and ending indices of the part I needed.
     - What if the input arguments is out of range of the string = StringIndexOutOfBoundsException
@@ -36,4 +52,5 @@ Summary
     Test [13] Added the expected string as String.format pushes the values of the variables to the string.
 
     Q4: Do you have further questions on this knowledge point?
+    
     A4: None
